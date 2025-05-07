@@ -111,7 +111,7 @@ Extend(R, {
         break
       }
     a = this.gK(a, c);
-    return a = new H(a.lng.toFixed(6), a.lat.toFixed(6))
+    return a = new H(a.lng, a.lat)
   },
   Eb: function(a) {
     if (a === p || a === j || 180 < a.lng || -180 > a.lng || 90 < a.lat || -90 > a.lat) return new H(0, 0);
@@ -146,7 +146,7 @@ Extend(R, {
     // Baidu JavaScript 中原本代码 end
 
     a = this.gK(a, c);
-    return a = new H(a.lng.toFixed(2), a.lat.toFixed(2))
+    return a = new H(a.lng, a.lat)
   },
   gK: function(a, b) {
     if (a && b) {
