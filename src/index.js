@@ -15,7 +15,7 @@ const MapTypes = {
 const MapLevelRange = {
   [MapTypes.Gaode]: {
     min: 1,
-    max: 19,
+    max: 20,
   },
   [MapTypes.Google]: {
     min: 0,
@@ -27,7 +27,7 @@ const MapLevelRange = {
   },
   [MapTypes.Baidu]: {
     min: 3,
-    max: 18,
+    max: 19,
   },
   [MapTypes.Tencent]: {
     min: 3,
